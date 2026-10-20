@@ -1,0 +1,19 @@
+# Simple Hammers - config
+
+# If true, sneaking makes the hammer mine a single block (like a normal pickaxe).
+sneak-disables: false
+
+# Blocks that a hammer will never break as a side block.
+blacklist:
+  - SPAWNER
+  - TRIAL_SPAWNER
+  - BUDDING_AMETHYST
+
+# Per-hammer settings. durability = max uses. enabled = craftable / giveable.
+hammers:
+  stone:     { enabled: true, durability: 330 }
+  copper:    { enabled: true, durability: 474 }
+  iron:      { enabled: true, durability: 624 }
+  golden:    { enabled: true, durability: 79 }
+  diamond:   { enabled: true, durability: 2601 }
+  netherite: { enabled: true, durability: 3385 }
